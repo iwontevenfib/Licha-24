@@ -1800,11 +1800,11 @@ iframe {
  
 input, textarea, select {
     margin-bottom: 20px;
-    border:#b6f0ff 2px solid;
+    border:none;
     background: #161813;
     font-family: var(--poppins);
     color: #b6f0ff;
-    border-radius: 10px;
+    border-radius: 5px;
    
 } 
 .first-line {
