@@ -1575,12 +1575,12 @@ margin-bottom: 10px;
     width: 60%;
 }
 
-.f-socials a i {
+.f-socials  i {
     font-size: 20px;
     margin-left:10px;
     transition: 200ms ease;
 }
-.f-socials a i:hover {
+.f-socials  i:hover {
     transform: scale(1.5);
 
 }
@@ -1795,6 +1795,7 @@ iframe {
     font-family: var(--roboto);
     margin: 0 0 1.2rem 0;
     font-size: 35px;
+    text-align: center;
 }
 
  
@@ -1806,10 +1807,16 @@ input, textarea, select {
     color: #b6f0ff;
     border-radius: 5px;
    
+   
 } 
+
+input, select {
+    height: 38px;
+}
 .first-line {
     display: flex;
     gap: 11px;
+   
 }
 
 
@@ -1841,6 +1848,9 @@ input, textarea, select {
 }
 .bleft  {
     width: 30%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 .bleftp1 {
     font-size: 25px;
@@ -1850,10 +1860,14 @@ input, textarea, select {
     font-size: 70px;
     color: #b6f0ff;
     font-family: var(--roboto);
+    margin-bottom: 16px;
 }
 .bleftp2 {
     color: #9cc5cf;
-    font-size: 20px;
+    font-size: 14px;
+}
+.bleftp1 {
+    margin-top: 16px;
 }
 .bright {
     width: 35%;
@@ -1932,3 +1946,6 @@ input, textarea, select {
     
     
 }
+
+
+
