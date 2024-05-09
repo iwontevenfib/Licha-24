@@ -1,29 +1,4 @@
 
-// NAVBAR
-const navbar = document.querySelector('nav');
-window.addEventListener('scroll', () => {
-  console.log(scrollY)
-  if (scrollY >= 673) {
-    navbar.classList.add('bg')
-  }
-  else {
-    navbar.classList.remove('bg');
-  }
-})
-
-const navbar1 = document.querySelector('.return');
-window.addEventListener('scroll', () => {
-  // console.log(scrollY)
-  if (scrollY >= 50) {
-    navbar1.classList.add('bg')
-  }
-  else {
-    navbar1.classList.remove('bg');
-  }
-})
-
-
-
 // IMAGE SHOW ON CLICK
 
 document.querySelectorAll('.rexplore-sec img').forEach(image => {
@@ -39,3 +14,15 @@ document.querySelector('.pop-up-img span').onclick = () => {
 
 
 // alert("Maam buong Pelepens na ginawa namin, eto kasi sinend ng mga groupmates ko e, sorry po haha - Karl")
+
+
+
+// mobile menu
+
+
+const openmenu = document.getElementsByClassName('menu-btn')[0]
+const nav = document.getElementsByClassName('links-container')[0]
+
+openmenu.addEventListener('click', () => {
+  nav.classList.toggle('active1')
+})
