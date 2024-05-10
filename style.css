@@ -1734,6 +1734,10 @@ input, select {
 
     }
 
+    .service-section {
+        padding: 10rem 1.5rem;
+    }
+
     .fcolumn h3 {
    margin:  15px 0 7px 0;
     }
@@ -1804,6 +1808,10 @@ input, select {
 
     .freepik {
         width: 300px;
+    }
+
+    .service-section {
+        padding: 10rem 0rem;
     }
 }
 
