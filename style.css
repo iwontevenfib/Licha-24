@@ -255,7 +255,7 @@ nav {
 .aboutsec {
     width: 90%;
     margin: 0 auto;
-    padding:5rem 20px;
+    padding:12rem 20px;
     min-height: 100vh;
 }
 .about-container {
@@ -1668,11 +1668,15 @@ input, select {
         padding: 20px 16rem;
       }
 
+      .b-container {
+        justify-items: center;
+      }
+
       .b-card:nth-child(1){
         grid-row: span 1;
     }
     .b-card:nth-child(3){
-        grid-column: span 2;
+        grid-column: span 1;
     }
     .b-card:nth-child(2){
         grid-row: span 1;
@@ -1769,7 +1773,7 @@ input, select {
        
     }
     .logo {
-        margin: 12px 0 0 35px ;
+        margin: 8px 0 0 30px ;
     }
     .rl {
         display: flex;
@@ -1817,6 +1821,21 @@ input, select {
 
     .about-container {
         padding: 25px 0;
+    }
+
+    .about-details {
+        font-size: 30px;
+    }
+
+    .about-titles p {
+        margin-bottom: 2rem;
+    }
+
+    .b-container {
+        height: 750px;
+    }
+    .b-section {
+        padding: 20px .5rem;
     }
 }
 
