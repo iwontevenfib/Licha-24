@@ -1761,7 +1761,7 @@ input, select {
         padding: 0;
         flex-direction: column;
         align-items: flex-start;
-        height: 88px;
+        height: 84px;
     }
 
     .links-container {
