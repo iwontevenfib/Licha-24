@@ -1179,7 +1179,7 @@ display: none;
 
 
 
-/* FOOOOOTERRRR */
+/* FOOTER */
 
 footer {
     background-color: #10110e;
@@ -1253,15 +1253,143 @@ margin-bottom: 10px;
     width: 60%;
 }
 
+/* SOCIALS */
+
+
+
 .f-socials  i {
     font-size: 20px;
     margin-left:10px;
     transition: 200ms ease;
 }
-.f-socials  i:hover {
-    transform: scale(1.5);
 
+
+.f-socials {
+    display: flex;
+    position: relative;
 }
+
+/* Facebook */
+.fb {
+    position: absolute;
+    top: -45px;
+    left: -35px;
+    background: #92e6fc;
+    padding: 4px 15px;
+    color: #10110e;
+    font-weight: 800;
+    border-radius: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 200ms ease-in-out;
+}
+
+.fb-box:hover .fb {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.fb-box:hover i {
+    transform: scale(1.5);
+    color: #316FF6;
+}
+
+
+/* Instagram */
+
+.ig {
+    position: absolute;
+    top: -45px;
+    left: -10px;
+    background: #92e6fc;
+    padding: 4px 15px;
+    color: #10110e;
+    font-weight: 800;
+    border-radius: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 200ms ease-in-out;
+}
+
+.ig-box:hover .ig {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.ig-box:hover i {
+    transform: scale(1.5);
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+/* Discord */
+
+.dc {
+    position: absolute;
+    top: -45px;
+    left: 30px;
+    background: #92e6fc;
+    padding: 4px 15px;
+    color: #10110e;
+    font-weight: 800;
+    border-radius: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 200ms ease-in-out;
+}
+
+.dc-box:hover .dc {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.dc-box:hover i {
+    transform: scale(1.5);
+    color: #5865F2;
+}
+
+
+/* Github */
+
+.git {
+    position: absolute;
+    top: -45px;
+    left: 25px;
+    background: #92e6fc;
+    padding: 4px 15px;
+    color: #10110e;
+    font-weight: 800;
+    border-radius: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 200ms ease-in-out;
+}
+
+.git-box:hover .git {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.git-box:hover i {
+    transform: scale(1.5);
+    color: #919191;
+}
+
+
+
+
+
+
+
+
 footer a {
     text-decoration: none;
     list-style: none;
@@ -1424,6 +1552,8 @@ iframe {
     font-size: 20px;
     font-weight: 600;
 }
+
+
 
 
 
