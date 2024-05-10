@@ -859,8 +859,9 @@ display: none;
    top: 50%;
    left:50%;
   width: auto;
-  height: 95%;
-  border-radius: 15px;
+  height: 100%;
+  padding: 3rem;
+  border-radius: 60px;
   object-fit: cover;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -1696,6 +1697,11 @@ input, select {
 
     .about-details h1 {
         text-align: center;
+    }
+
+    .pop-up-img img {
+        width: 100%;
+    height: auto;
     }
 
 }
