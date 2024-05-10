@@ -1387,11 +1387,11 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 
 }
 
 .maps-description {
-    margin: 0 0 0 5rem;
     line-height: 2;
     text-align: justify;
     font-size: 16px;
@@ -1467,6 +1467,14 @@ iframe {
 
     .b-section {
         padding: 20px 10rem;
+    }
+
+    .g-maps {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 20rem;
     }
 }
 
