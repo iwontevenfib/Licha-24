@@ -813,7 +813,7 @@ hr {
 
 .service-card:nth-child(1) .anim {
 
-    background: url(baguio/3.jpg);
+    background: url(ppl/pablo.jpg);
     background-size: cover;
     opacity: .8;
 }
@@ -827,7 +827,7 @@ hr {
 
 .service-card:nth-child(3) .anim {
 
-    background: url(baguio/10.jpg);
+    background: url(delicacies/moron.jpg);
     background-size: cover;
     opacity: .8;
 }
@@ -1372,35 +1372,10 @@ footer a {
     color: #ffffff;
 }
 
-.maps-title {
-    font-family: var(--roboto);
-    color: #92e6fc;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    margin: 35px;
-}
 
-.g-maps {
-    font-family: var(--poppins);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
 
-}
 
-.maps-description {
-    line-height: 2;
-    text-align: justify;
-    font-size: 16px;
-}
 
-iframe {
-    border-radius: 25px;
-    width: 30rem;
-}
 
 .highlight {
     color: #b6f0ff;
@@ -1469,13 +1444,7 @@ iframe {
         padding: 20px 10rem;
     }
 
-    .g-maps {
-        flex-direction: column;
-    }
-
-    iframe {
-        width: 20rem;
-    }
+   
 }
 
 @media (max-width:1280px) {
