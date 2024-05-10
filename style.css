@@ -850,7 +850,7 @@ display: none;
     color: #b6f0ff;
     cursor: pointer;
     transition: 250ms ease;
-    z-index: 11;
+    z-index: 25;
 }
 .pop-up-img span:hover {
     color: #647d83;
@@ -858,15 +858,12 @@ display: none;
 .pop-up-img img {
    top: 50%;
    left:50%;
-  
   width: auto;
   height: 95%;
-  border-radius: 90px;
+  border-radius: 15px;
   object-fit: cover;
   transform: translate(-50%, -50%);
   position: absolute;
-  padding: 5rem;
-  
 }
 
 
@@ -1371,7 +1368,7 @@ display: inline;
     position: fixed;
     top: 0;
     left: 0;
-z-index: 99;
+z-index: 10;
 
    width: 100%;
 }
@@ -1754,6 +1751,8 @@ input, select {
     .b-section{
         padding: 20px 11rem;
     }
+
+    
 }
 
 @media (max-width:768px) {
@@ -1825,6 +1824,11 @@ input, select {
 
 @media (max-width:640px) {
 
+    .pop-up-img img {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+}
 }
 
 
