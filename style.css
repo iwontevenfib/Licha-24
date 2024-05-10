@@ -833,11 +833,12 @@ font-size: 25px;}
     background:#10110ea4 ;
     height: 100%;
     width: 100%;
-    z-index: 9999;
+    z-index: 10;
     display: flex;
 justify-content: center;
 align-items: center;
 display: none;
+
 /* backdrop-filter: blur(3px); */
 }
 .pop-up-img span {
@@ -849,6 +850,7 @@ display: none;
     color: #b6f0ff;
     cursor: pointer;
     transition: 250ms ease;
+    z-index: 11;
 }
 .pop-up-img span:hover {
     color: #647d83;
@@ -856,12 +858,14 @@ display: none;
 .pop-up-img img {
    top: 50%;
    left:50%;
-  border-radius: 25px;
-  width: 750px;
-  height: 750px;
+  
+  width: auto;
+  height: 95%;
+  border-radius: 90px;
   object-fit: cover;
   transform: translate(-50%, -50%);
   position: absolute;
+  padding: 5rem;
   
 }
 
