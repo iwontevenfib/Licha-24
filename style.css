@@ -183,11 +183,16 @@ nav {
     padding: 15px;
 }
 
+.welcome-text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .welcome-content p {
     font-family: var(--poppins);
     color: var(--secondaryfont);
     font-size: 25px;
     font-weight: 500;
+ 
 }
 
 .w3 {
