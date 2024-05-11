@@ -693,6 +693,7 @@ hr {
     font-family: var(--poppins);
     color: var(--salmon);
     margin-bottom: 30px;
+    font-size: 17px;
     
     
 
@@ -815,6 +816,7 @@ align-items: center;
 
 .w-details ,p {
     color: var(--salmon);
+    font-size: 17px;
 }
 
 /* CARD */
@@ -1206,6 +1208,7 @@ footer i {
 
 #f-company p {
     margin-bottom: 10px;
+    font-size: 17px;
 }
 
 .footer-row {
