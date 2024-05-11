@@ -1579,6 +1579,10 @@ position: relative;
         padding: 20px 20rem;
     }
 
+
+    .about-titles p {
+        font-size: 18px;
+    }
 }
 
 @media (max-width:1750px) {
@@ -1592,6 +1596,10 @@ position: relative;
     }
 
     .dl p {
+        font-size: 16px;
+    }
+
+    .about-titles p {
         font-size: 16px;
     }
 
@@ -1615,6 +1623,9 @@ position: relative;
     .dl p {
         font-size: 14px;
     }
+    .about-titles p {
+        font-size: 15px;
+    }
 }
 
 
@@ -1630,6 +1641,9 @@ position: relative;
     }
     .dl p {
         font-size: 13px;
+    }
+    .about-titles p {
+        font-size: 14px;
     }
 }
 
@@ -1648,6 +1662,9 @@ position: relative;
    
     nav {
         padding: 20px 6rem 20px 5rem;
+    }
+    .about-titles p {
+        font-size: 14px;
     }
 }
 
@@ -1697,7 +1714,9 @@ position: relative;
         grid-column: span 2;
     }
     
-
+    .about-titles p {
+        font-size: 13px;
+    }
 }
 
 
@@ -1778,6 +1797,10 @@ position: relative;
         display: none;
     }
     
+    .about-titles p {
+        font-size: 18px;
+        padding: .5rem;
+    }
 
 }
 
