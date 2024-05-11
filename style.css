@@ -1896,6 +1896,9 @@ position: relative;
         left: 1rem;
     }
    
+.link-item:nth-child(1){
+    margin-top: 100px;
+}
 
     .rl {
         display: flex;
@@ -1904,6 +1907,8 @@ position: relative;
         justify-content: center;
         background-color: #050505b7;
     }
+
+   
 
     .rl:hover {
         background: #10110eb0;
