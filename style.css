@@ -16,6 +16,26 @@
     --secondaryfont1: #acccd4;
     --secondaryfont: #DCF2F1;
     --navbar-color: #1618139a;
+    --salmon: #FA8072;
+    --scarlet: #FF2400;
+    --barn-Red: #7C0A02;
+--Imperial-Red:#ED2939;
+--Indian-Red: #CD5C5C;
+--chili-Red: #E32227;
+--Fire-Brick: #B22222;
+--Carmine: #D70040;
+--Maroon: #800000;
+--Redwood:#A45A52;
+--Desire:#EA3C53;
+--Vermillion: #E34234;
+--Candy-Apple: #FF0800;
+--Hibiscus: #B6316C;
+--Raspberry: #E30B5C;
+--Mahogany: #C04000;
+--Crimson: #DC143C;
+--Sangria: #9E0008;
+--Burgundy: #800020;
+--Rust: #B7410E;
 
     /*GRADIENT  */
     --monospace: 'Source Code Pro', monospace;
@@ -23,7 +43,7 @@
     --gradient-bottom: linear-gradient(180deg, rgba(22, 24, 19, 0) 0%, rgba(22, 24, 19, 0.42) 21.88%, rgba(22, 24, 19, 0.69) 41.67%, rgba(22, 24, 19, 0.9) 61.98%, rgba(22, 24, 19, 0.99) 78.12%, #161813 100%);
     --sphere-gradient-one: radial-gradient(50% 50% at 20% 25%, #686868 0%, #403F3F 35%, #222222 70%, #000000 100%);
     --sphere-gradient-two: radial-gradient(51.04% 51.04% at 18.94% 26.18%, #686868 0%, #403F3F 36.98%, #222222 70.83%, #000000 100%);
-
+     
 
 
     /* BUTTON ROOT */
@@ -95,7 +115,7 @@ nav {
 }
 
 .rl {
-    color: #b6f0ff;
+    color: var(--Desire);
     text-decoration: none;
     font-family: var(--poppins);
     font-size: 19px;
@@ -105,7 +125,7 @@ nav {
 }
 
 .rl:hover {
-    color: #ffffff;
+    color: var(--salmon);
 }
 
 
@@ -189,7 +209,7 @@ nav {
 }
 .welcome-content p {
     font-family: var(--poppins);
-    color: var(--secondaryfont);
+    color: var(--salmon);
     font-size: 25px;
     font-weight: 500;
  
@@ -220,7 +240,7 @@ nav {
 }
 
 .imp-name {
-    color: #b6f0ff;
+    color: var(--Carmine);
     font-weight: 700;
 }
 
@@ -250,12 +270,12 @@ nav {
     font-family: var(--poppins);
     text-align: center;
 
-    color: #b6f0ff;
+    color: var(--Carmine);
 
 }
 
 .about-titles h1 {
-    color: #b6f0ff;
+    color: var(--Carmine);
     font-size: 40px;
     margin: 0 0 10px 0;
     font-family: var(--roboto);
@@ -266,7 +286,7 @@ nav {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    color: #d8d8d8fd;
+    color: var(--salmon);
     margin-bottom: 5rem;
 }
 
@@ -311,7 +331,7 @@ nav {
 
 
 .about-details h1 {
-    color: #b6f0ff;
+    color: var(--Carmine);
     font-size: 40px;
     margin: 0 0 10px 0;
     font-family: var(--roboto);
@@ -319,7 +339,7 @@ nav {
 }
 
 .about-details p {
-    color: #d8d8d8fd;
+    color: var(--salmon);
     font-size: 16px;
     margin: 0 0 30px 0;
     line-height: 2;
@@ -632,7 +652,7 @@ hr {
     font-family: var(--roboto);
     font-size: 40px;
     justify-content: center;
-    color: var(--secondaryfont);
+    color: var(--Carmine);
     display: flex;
     margin-top: 80px;
 
@@ -642,7 +662,7 @@ hr {
 .b-sec-details {
     text-align: center;
     font-family: var(--poppins);
-    color: var(--secondaryfont);
+    color: var(--salmon);
     margin-bottom: 30px;
 
 }
@@ -748,7 +768,7 @@ align-items: center;
     font-family: var(--roboto);
     font-size: 40px;
     text-align: center;
-    color: var(--secondaryfont);
+    color: var(--Crimson);
     margin-top: 2rem;
 }
 
@@ -759,6 +779,10 @@ align-items: center;
  max-width: 768px;
 }
 
+
+.service-details ,p {
+    color: var(--salmon);
+}
 
 /* CARD */
 
@@ -780,7 +804,7 @@ align-items: center;
     width: 260px;
     height: 250px;
     border-radius: 25px;
-    border: #b6f0ff solid 4px;
+    border: var(--Carmine) solid 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -796,6 +820,7 @@ align-items: center;
 .service-card i {
     font-size: 60px;
     z-index: 1;
+    color: var(--Candy-Apple);
 }
 
 
@@ -908,14 +933,14 @@ align-items: center;
     text-align: center;
     font-family: var(--roboto);
     margin-top: 7rem;
-    color: #b6f0ff;
-    font-size: 30px;
+    color: var(--Carmine);
+    font-size: 35px;
 }
 
 
 .a1-description-container h1 {
     font-family: var(--roboto);
-    color: #b6f0ff;
+    color: var(--Carmine);
     font-size: 30px;
 }
 
@@ -988,7 +1013,7 @@ align-items: center;
 
 .grid-title {
     font-family: var(--roboto);
-    color: #b6f0ff;
+    color: var(--Carmine);
     margin-top: 7rem;
 
     font-size: 35px;
@@ -1004,12 +1029,12 @@ align-items: center;
     margin: 5px 0 5px 0;
    
     text-align: justify;
-    color: var(--secondaryfont);
+    color: var(--salmon);
     font-size: 20px;
 }
 
 .a1-description-container {
-    border: var(--secondaryfont1) 2px solid;
+    border: var(--salmon) 2px solid;
     border-radius: 5px;
     padding: 25px;
  margin-top: 5rem;
@@ -1032,7 +1057,7 @@ align-items: center;
 
 .grid-description1 {
   font-size: 16px;
-  color: var(--secondaryfont);
+  color: var(--salmon);
   font-family: var(--poppins);
   text-align: justify;
   padding: 1rem 0;
@@ -1114,7 +1139,7 @@ footer {
 }
 
 #f-company h1 {
-    color: #b6f0ff;
+    color: var(--Carmine);
     font-family: var(--roboto);
     font-weight: 500;
 }
@@ -1144,7 +1169,7 @@ footer {
 }
 
 .fcolumn h3 {
-    color: #b6f0ff;
+    color: var(--Carmine);
     position: relative;
     cursor: pointer;
     margin-bottom: 25px;
@@ -1155,7 +1180,7 @@ footer {
     content: '';
     height: 3px;
     width: 0px;
-    background-color: var(--secondaryfont);
+    background-color: var(--salmon);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1315,6 +1340,7 @@ footer a {
     display: block;
     position: relative;
     cursor: default;
+    color: var(--salmon);
 }
 
 
@@ -1367,7 +1393,7 @@ footer a {
     content: '';
     position: absolute;
     height: 2px;
-    background: #b6f0ff;
+    background: var(--Crimson);
     margin: auto;
     width: 48%;
     top: 45%;
@@ -1385,7 +1411,7 @@ footer a {
     display: flex;
     align-items: center;
     font-size: 30px;
-    color: #b6f0ff;
+    color: var(--Carmine);
 }
 
 .copyright {
@@ -1403,7 +1429,7 @@ footer a {
     top: 0;
     left: 0;
     z-index: 10;
-
+    
     width: 100%;
 }
 
@@ -1414,14 +1440,17 @@ footer a {
 
 .return a {
     font-family: var(--poppins);
-    color: #b6f0ff;
+    color: var(--Carmine);
     text-decoration: none;
     transition: .5s;
+    font-weight: 700;
+    font-size: 20px;
+    
 
 }
 
 .return a:hover {
-    color: #ffffff;
+    color: var(--salmon);
 }
 
 
