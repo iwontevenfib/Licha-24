@@ -1912,8 +1912,11 @@ position: relative;
 
     }
 
-    .llogo {
-        left: 1rem;
+   
+
+    .llogo a {
+        left: 1.2rem;
+
     }
    
 .link-item:nth-child(1){
