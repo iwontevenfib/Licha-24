@@ -288,8 +288,12 @@ nav {
     font-family: var(--poppins);
     text-align: center;
     max-width: 840px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+   
     color: var(--Carmine);
+    
 
 }
 
@@ -312,7 +316,7 @@ nav {
 .aboutsec {
     width: 90%;
     margin: 0 auto;
-    padding: 12rem 20px;
+    padding: 0 20px;
     min-height: 100vh;
 }
 
@@ -673,7 +677,7 @@ hr {
     justify-content: center;
     color: var(--Carmine);
     display: flex;
-    margin-top: 80px;
+    margin-top: 100px;
 
 
 }
@@ -776,26 +780,26 @@ hr {
 
 /* SERVICES */
 
-.service-section {
+.w-section {
     min-height: 100vh;
    
     display: flex;
-    margin-top: 100px;
+
     flex-direction: column;
 align-items: center;
 }
 
-.service-title {
+.w-title {
 
     font-family: var(--roboto);
     font-size: 40px;
     text-align: center;
     color: var(--Crimson);
-    margin-top: 2rem;
+    margin-top: 11rem;
     margin-bottom: .5rem;
 }
 
-.service-details {
+.w-details {
     font-family: var(--poppins);
     color: var(--secondaryfont);
     text-align: center;
@@ -803,14 +807,14 @@ align-items: center;
 }
 
 
-.service-details ,p {
+.w-details ,p {
     color: var(--salmon);
 }
 
 /* CARD */
 
 
-.service-container {
+.w-container {
 
     display: grid;
     width: 100%;
@@ -823,7 +827,7 @@ align-items: center;
     justify-content: center;
 }
 
-.service-card {
+.w-card {
     width: 260px;
     height: 250px;
     border-radius: 25px;
@@ -840,14 +844,14 @@ align-items: center;
     transition: 500ms ease;
 }
 
-.service-card i {
+.w-card i {
     font-size: 60px;
     z-index: 1;
     color: var(--Candy-Apple);
 }
 
 
-.service-card-text {
+.w-card-text {
     color: var(--salmon);
     z-index: 1;
 }
@@ -865,36 +869,36 @@ align-items: center;
 
 }
 
-.service-card:hover .anim {
+.w-card:hover .anim {
     clip-path: circle(70.7% at 50% 50%);
 }
 
-.service-card:hover {
+.w-card:hover {
     color: #92e6fc;
 }
 
-.service-card:nth-child(1) .anim {
+.w-card:nth-child(1) .anim {
 
     background: url(ppl/Jose.jpg);
     background-size: cover;
     opacity: .8;
 }
 
-.service-card:nth-child(2) .anim {
+.w-card:nth-child(2) .anim {
 
     background: url(Instruments/6.jpg);
     background-size: cover;
     opacity: .8;
 }
 
-.service-card:nth-child(3) .anim {
+.w-card:nth-child(3) .anim {
 
     background: url(delicacies/moron.jpg);
     background-size: cover;
     opacity: .8;
 }
 
-.service-card:nth-child(4) .anim {
+.w-card:nth-child(4) .anim {
 
     background: url(tanay/1.jpg);
     background-size: cover;
@@ -929,14 +933,14 @@ align-items: center;
     right: 27px;
     font-size: 30px;
     font-weight: 800;
-    color: #b6f0ff;
+    color: var(--Carmine);
     cursor: pointer;
     transition: 250ms ease;
     z-index: 25;
 }
 
 .pop-up-img span:hover {
-    color: #647d83;
+    color: var(--salmon);
 }
 
 .pop-up-img img {
@@ -1643,7 +1647,7 @@ position: relative;
         font-size: 20px;
     }
 
-    .service-card {
+    .w-card {
         width: 235px;
         height: 225px;
     }
@@ -1773,7 +1777,7 @@ position: relative;
         font-size: 18px;
     }
 
-    .service-container {
+    .w-container {
         grid-template-columns: repeat(2, .2fr);
     }
 
@@ -1804,7 +1808,7 @@ position: relative;
         grid-column: span 1;
     }
 
-    .service-title {
+    .w-title {
         font-size: 30px;
     }
 }
@@ -1854,7 +1858,7 @@ position: relative;
 
 
 
-    .service-section {
+    .w-section {
         padding: 10rem 1.5rem;
     }
 
@@ -1923,7 +1927,7 @@ position: relative;
         display: block;
     }
 
-    .service-container {
+    .w-container {
         grid-template-columns: repeat(1, .2fr);
     }
 
@@ -1939,7 +1943,7 @@ position: relative;
         width: 300px;
     }
 
-    .service-section {
+    .w-section {
         padding: 10rem 1rem;
     }
 
@@ -1971,7 +1975,7 @@ position: relative;
         justify-content: center;
     }
 
-.service-title {
+.w-title {
     font-size: 26px;
 }
 
@@ -2002,7 +2006,7 @@ position: relative;
     font-size: 27px;
 }
 
-.service-title {
+.w-title {
     font-size: 24px;
 
 }
