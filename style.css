@@ -1178,6 +1178,7 @@ footer i {
     color: var(--Carmine);
     font-family: var(--roboto);
     font-weight: 500;
+  
 }
 
 #f-company img {
@@ -1979,6 +1980,11 @@ position: relative;
 .link-section {
     padding:  0 .5rem;
 }
+
+
+#f-company h1 {
+    font-size: 27px;
+}
 }
 
 
@@ -2020,7 +2026,9 @@ position: relative;
 
 }
 
-@media (max-width:380px) {}
+@media (max-width:380px) {
+
+}
 
 
 @media (max-width:280px) {
@@ -2038,4 +2046,8 @@ position: relative;
     .grid-title {
         font-size: 18px;
      }
+
+     #f-company h1 {
+        font-size: 16px;
+    }
 }
