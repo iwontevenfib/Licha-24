@@ -377,7 +377,12 @@ nav {
 }
 
 
-
+.karl {
+ color: var(--Desire);
+ font-weight: 700;
+ font-family: var(--alegreya);
+ font-size: 35px;
+}
 
 
 
@@ -1646,16 +1651,7 @@ position: relative;
     .dl p {
         font-size: 14px;
     }
-    .about-titles p {
-        font-size: 15px;
-    }
-
-    .b-sec-details {
-        font-size: 15px;
-    }
-    .w-details {
-        font-size: 15px;
-    }
+   
 }
 
 
@@ -1701,7 +1697,7 @@ position: relative;
     }
 
     .footer-msg {
-        font-size: 14px;
+        font-size: 15px;
     }
    
 }
@@ -1752,16 +1748,7 @@ position: relative;
         grid-column: span 2;
     }
     
-    .about-titles p {
-        font-size: 13px;
-    }
-
-    .b-sec-details {
-        font-size: 13px;
-    }
-    .w-details {
-        font-size: 13px;
-    }
+   
 }
 
 
@@ -2074,9 +2061,6 @@ position: relative;
         justify-content: center;
     }
 
-.w-title {
-    font-size: 26px;
-}
 
 }
 
@@ -2105,10 +2089,7 @@ position: relative;
     font-size: 27px;
 }
 
-.w-title {
-    font-size: 24px;
 
-}
 }
 
 
@@ -2129,7 +2110,7 @@ position: relative;
 
     .about-titles p {
         margin-bottom: 2rem;
-        text-align: justify;
+        
     }
 
     .b-container {
