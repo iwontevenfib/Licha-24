@@ -792,6 +792,7 @@ align-items: center;
     text-align: center;
     color: var(--Crimson);
     margin-top: 2rem;
+    margin-bottom: .5rem;
 }
 
 .service-details {
@@ -1798,6 +1799,9 @@ position: relative;
         grid-column: span 1;
     }
 
+    .service-title {
+        font-size: 30px;
+    }
 }
 
 
@@ -1957,7 +1961,9 @@ position: relative;
         justify-content: center;
     }
 
-
+.service-title {
+    font-size: 26px;
+}
 
 }
 
@@ -1984,6 +1990,11 @@ position: relative;
 
 #f-company h1 {
     font-size: 27px;
+}
+
+.service-title {
+    font-size: 24px;
+
 }
 }
 
