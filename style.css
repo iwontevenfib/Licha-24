@@ -95,10 +95,21 @@ nav {
     background-color: #050505b7;
 }
 
-
+.llogo {
+    position: absolute;
+    top: -11px;
+    left: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--Desire);
+    font-weight: 800;
+    font-size:25px ;
+    font-family: var(--poppins);
+}
 .logo {
-    height: 72px;
-    margin-top: 10px;
+    width:125px;
+    
 }
 
 
@@ -133,7 +144,7 @@ nav {
     position: absolute;
     width: 60px;
     right: 1rem;
-    top: .6rem;
+    top: 1.2rem;
     display: none;
 }
 
@@ -244,6 +255,13 @@ nav {
     font-weight: 700;
 }
 
+.mabuhay {
+    font-size:18px ;
+    color: white;
+    font-weight: 400;
+    font-family: var(--roboto);
+}
+
 
 
 
@@ -269,7 +287,8 @@ nav {
 .about-titles {
     font-family: var(--poppins);
     text-align: center;
-
+    max-width: 840px;
+    margin: 0 auto;
     color: var(--Carmine);
 
 }
@@ -366,12 +385,6 @@ nav {
     text-align: center;
 }
 
-.explore-title {
-
-    font-family: var(--roboto);
-    font-size: 40px;
-    margin: 6rem 0 10px 0;
-}
 
 .explore-details {
     font-family: var(--poppins);
@@ -641,6 +654,12 @@ hr {
 
 /* GALLLALLAL */
 
+
+.explore-titles {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
 .b-section {
     width: 100%;
     min-height: 100vh;
@@ -664,6 +683,8 @@ hr {
     font-family: var(--poppins);
     color: var(--salmon);
     margin-bottom: 30px;
+    
+    
 
 }
 
@@ -698,8 +719,9 @@ hr {
 }
 
 .etitle {
-    font-weight: 300;
+    font-weight: 800;
     font-size: 25px;
+    color: var(--salmon);
 }
 
 .ebutton {
@@ -719,14 +741,14 @@ hr {
     width: 100%;
     height: 100%;
     transition: 500ms ease;
-    opacity: .6;
+    filter: brightness(40%);
 }
 
 
 
 .b-card:hover .b-img {
     transform: scale(1.1);
-    opacity: 1;
+    filter: brightness(100%);
 }
 
 .b-card:nth-child(1) {
@@ -791,7 +813,7 @@ align-items: center;
 
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(4, .2fr);
+    grid-template-columns: repeat(4, .1fr);
     color: var(--secondaryfont1);
     grid-gap: 1rem;
     margin-top: 80px;
@@ -825,7 +847,7 @@ align-items: center;
 
 
 .service-card-text {
-    color: var(--secondaryfont);
+    color: var(--salmon);
     z-index: 1;
 }
 
@@ -933,6 +955,8 @@ align-items: center;
     text-align: center;
     font-family: var(--roboto);
     margin-top: 7rem;
+    
+
     color: var(--Carmine);
     font-size: 35px;
 }
@@ -1015,10 +1039,11 @@ align-items: center;
     font-family: var(--roboto);
     color: var(--Carmine);
     margin-top: 7rem;
-
+    margin-bottom: 3rem;
     font-size: 35px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -1048,9 +1073,9 @@ align-items: center;
 }
 
 @keyframes arrow {
-    0%{ top:0rem;}
-    50%{top:-2rem }
-    100% {top:0rem;}
+    0%{ top:5rem;}
+    50%{top:3rem }
+    100% {top:5rem;}
 }
 
 
@@ -1125,8 +1150,19 @@ footer {
 
 }
 
+footer i {
+
+    color: var(--Imperial-Red);
+}
+
 .f-logo {
-    width: 100px;
+    width: 120px;
+}
+
+
+.footer-msg {
+    max-width: 390px;
+    margin: 0 auto;
 }
 
 .footer-container {
@@ -1214,9 +1250,9 @@ footer {
     position: absolute;
     top: -45px;
     left: -45px;
-    background: #92e6fc;
+    background: var(--Crimson);
     padding: 4px 15px;
-    color: #10110e;
+    color: white;
     font-weight: 800;
     border-radius: 25px;
     opacity: 0;
@@ -1236,47 +1272,15 @@ footer {
 }
 
 
-/* Instagram */
-
-.ig {
-    position: absolute;
-    top: -45px;
-    left: -20px;
-    background: #92e6fc;
-    padding: 4px 15px;
-    color: #10110e;
-    font-weight: 800;
-    border-radius: 25px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 200ms ease-in-out;
-}
-
-.ig-box:hover .ig {
-    opacity: 1;
-    visibility: visible;
-
-}
-
-.ig-box:hover i {
-    transform: scale(1.5);
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-
-
 /* Discord */
 
 .dc {
     position: absolute;
     top: -45px;
-    left: 20px;
-    background: #92e6fc;
+    left:-7px;
+    background: var(--Crimson);
     padding: 4px 15px;
-    color: #10110e;
+    color: white;
     font-weight: 800;
     border-radius: 25px;
     opacity: 0;
@@ -1301,10 +1305,10 @@ footer {
 .git {
     position: absolute;
     top: -45px;
-    left: 15px;
-    background: #92e6fc;
+    left: -27px;
+    background: var(--Crimson);
     padding: 4px 15px;
-    color: #10110e;
+    color: white;
     font-weight: 800;
     border-radius: 25px;
     opacity: 0;
@@ -1320,7 +1324,7 @@ footer {
 
 .git-box:hover i {
     transform: scale(1.5);
-    color: #919191;
+    color: #fcfcfc;
 }
 
 
@@ -1349,6 +1353,7 @@ footer a {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    gap: .5rem;
 }
 
 
@@ -1416,7 +1421,7 @@ footer a {
 
 .copyright {
     font-family: var(--poppins);
-    color: var(--secondaryfont);
+    color: var(--salmon);
     font-size: 15px;
     margin: 1rem 0 0 0;
     text-align: center;
@@ -1465,6 +1470,77 @@ footer a {
 }
 
 
+/* LINKS */
+
+.return {
+    background-color: #050505b7;
+    padding: 25px 2.5rem;
+}
+
+/* Binagol */
+
+.link-section {
+    padding: 1.5rem 5rem;
+}
+
+.img-box {
+   width: 50vw;
+}
+
+.img-box h1 {
+    font-family: var(--roboto);
+    font-size: 25px;
+    color: var(--Carmine);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dl {
+border: var(--Carmine) 1px solid;
+border-radius: 8px;
+padding: 1.5rem;
+
+display: flex;
+align-items: center;
+gap: 2rem;
+position: relative;
+}
+
+.dl p {
+    font-family: var(--poppins);
+    font-size: 18px;
+    color: var(--salmon);
+    width: 50vw;
+    text-align: justify;
+
+}
+
+.dl h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.dl h1::before {
+    content: '';
+    background-color: var(--Desire);
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dl img {
+    width: 100%;
+    height: auto;
+    border-radius:15px;
+    border:var(--Carmine) 2px solid;
+}
 
 /* MEDIA QUERIES */
 
@@ -1472,9 +1548,7 @@ footer a {
 
 @media (max-width:1920px) {
 
-    .service-container {
-        grid-template-columns: repeat(4, .1fr);
-    }
+   
 
     .b-section {
         padding: 20px 20rem;
@@ -1490,6 +1564,10 @@ footer a {
     .etitle {
 
         font-size: 23px;
+    }
+
+    .dl p {
+        font-size: 16px;
     }
 
 }
@@ -1509,6 +1587,9 @@ footer a {
         padding: 1rem;
         border-radius: 25px;
     }
+    .dl p {
+        font-size: 14px;
+    }
 }
 
 
@@ -1522,7 +1603,9 @@ footer a {
 
         font-size: 21px;
     }
-
+    .dl p {
+        font-size: 13px;
+    }
 }
 
 @media (max-width:1360px) {
@@ -1534,7 +1617,13 @@ footer a {
     .grid-description {
         font-size: 17px;
     }
+    .dl p {
+        font-size: 12px;
+    }
    
+    nav {
+        padding: 20px 6rem 20px 5rem;
+    }
 }
 
 @media (max-width:1280px) {
@@ -1582,6 +1671,7 @@ footer a {
         grid-row: span 1;
         grid-column: span 2;
     }
+    
 
 }
 
@@ -1615,11 +1705,52 @@ footer a {
 
     .explore-grid1 {
         columns: 2;
+        padding: 1rem;
     }
     .explore-grid-main {
         
         grid-template-columns: repeat(2, 1fr);
        
+    }
+   
+    .dl p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .dl:nth-child(1) {
+        flex-direction: column;
+    }
+    
+    .dl:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .dl:nth-child(3) {
+        flex-direction: column;
+    }
+    
+    .dl:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+    
+    .dl:nth-child(5) {
+        flex-direction: column;
+    }
+    
+    .dl:nth-child(6) {
+        flex-direction: column-reverse;
+    }
+    
+    .dl:nth-child(7) {
+        flex-direction: column;
+    }
+    
+    .dl:nth-child(8) {
+        flex-direction: column-reverse;
+    }
+
+    .logo-name {
+        display: none;
     }
     
 
@@ -1676,6 +1807,10 @@ footer a {
     .b-section {
         padding: 20px 10rem;
     }
+
+    nav {
+        padding: 20px 3rem 20px 5rem;
+    }
 }
 
 @media (max-width:835px) {
@@ -1692,18 +1827,15 @@ footer a {
         font-size: 13px;
     }
 
-    .ig {
-        left: -10px;
-        font-size: 13px;
-    }
+   
 
     .dc {
-        left: 26px;
+        left: -2px;
         font-size: 13px;
     }
 
     .git {
-        left: 27px;
+        left: -10px;
         font-size: 13px;
     }
 
@@ -1743,7 +1875,7 @@ footer a {
         padding: 0;
         flex-direction: column;
         align-items: flex-start;
-        height: 84px;
+        height: 100px;
     }
 
     .links-container {
@@ -1755,9 +1887,10 @@ footer a {
 
     }
 
-    .logo {
-        margin: 8px 0 0 30px;
+    .llogo {
+        left: 1rem;
     }
+   
 
     .rl {
         display: flex;
@@ -1792,7 +1925,7 @@ footer a {
     }
 
     .service-section {
-        padding: 10rem 0rem;
+        padding: 10rem 1rem;
     }
 
     .welcome-content p {
@@ -1829,7 +1962,23 @@ footer a {
 
 @media (max-width:640px) {
 
+ .grid-title {
+    font-size: 28px;
+ }
+
+ .return a {
+    font-size: 17px;
+ }
+
+ .dl p {
+    width: auto;
+    /* padding:  0 ; */
  
+
+}
+.link-section {
+    padding:  0 .5rem;
+}
 }
 
 
@@ -1865,7 +2014,9 @@ footer a {
 
 @media (max-width:475px) {
 
-    
+    .grid-title {
+        font-size: 23px;
+     }
 
 }
 
@@ -1884,4 +2035,7 @@ footer a {
     .welcome-content {
         padding: 7rem 0px;
     }
+    .grid-title {
+        font-size: 18px;
+     }
 }
