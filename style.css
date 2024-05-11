@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 :root {
 
     /* BASIC ROOT */
-    --roboto: "Roboto Slab", serif;
+    --alegreya:"Alegreya", serif;
     --poppins: 'Poppins', sans-serif;
 
 
@@ -36,6 +35,7 @@
 --Sangria: #9E0008;
 --Burgundy: #800020;
 --Rust: #B7410E;
+--head:#faebd7;
 
     /*GRADIENT  */
     --monospace: 'Source Code Pro', monospace;
@@ -237,10 +237,10 @@ nav {
 
 
 .welcome-content h1 {
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-size: 70px;
     font-weight: 200;
-    color: white;
+    color: var(--head);
 }
 
 
@@ -259,9 +259,9 @@ nav {
 
 .mabuhay {
     font-size:18px ;
-    color: white;
+    color: var(--head);
     font-weight: 400;
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
 }
 
 
@@ -295,7 +295,7 @@ nav {
     margin-top: 7rem;
    
     color: var(--Carmine);
-    
+
 
 }
 
@@ -303,7 +303,7 @@ nav {
     color: var(--Carmine);
     font-size: 40px;
     margin: 0 0 10px 0;
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-weight: 400;
 }
 
@@ -316,9 +316,8 @@ nav {
 }
 
 .aboutsec {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 20px;
+    width: 100%;
+    
     min-height: 100vh;
 }
 
@@ -326,21 +325,26 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 6rem;
     gap: 25px;
+    /* background-color: #561C24 ; */
+    background-color: #3D0C11 ;
+    height: 50%;
+    position: relative;
 
 }
 
+.kris-kros {
+    position: absolute;
+    width: 75px;
+    top: -38px;
+}
+
 .freepik {
-    color: rgb(240, 238, 235);
-
+   
     width: 500px;
-
-
-
     transition: 500ms ease;
-    border: 4px solid #b6f0ff;
-    border-radius: 15px;
+   
 
 }
 
@@ -359,7 +363,7 @@ nav {
     color: var(--Carmine);
     font-size: 40px;
     margin: 0 0 10px 0;
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-weight: 400;
 }
 
@@ -668,13 +672,13 @@ hr {
 }
 .b-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     padding: 20px 20rem;
 }
 
 .b-sec-title {
     text-align: center;
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-size: 40px;
     justify-content: center;
     color: var(--Carmine);
@@ -793,7 +797,7 @@ align-items: center;
 
 .w-title {
 
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-size: 40px;
     text-align: center;
     color: var(--Crimson);
@@ -831,16 +835,16 @@ align-items: center;
 
 .w-card {
     width: 260px;
-    height: 250px;
-    border-radius: 25px;
-    border: var(--Carmine) solid 4px;
+    height: 350px;
+    border-radius: 5px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: var(--poppins);
     gap: 12px;
-    background: #2729254d;
+    background: #31332f4d;
     text-align: center;
     position: relative;
     transition: 500ms ease;
@@ -850,12 +854,14 @@ align-items: center;
     font-size: 60px;
     z-index: 1;
     color: var(--Candy-Apple);
+    transition: 500ms ease;
 }
 
 
 .w-card-text {
     color: var(--salmon);
     z-index: 1;
+    transition: 500ms ease;
 }
 
 .anim {
@@ -864,16 +870,18 @@ align-items: center;
     left: 0;
     width: 100%;
     height: 100%;
-    transition: 400ms ease-in-out;
+    transition: 500ms ease-in-out;
     clip-path: circle(0.0% at 50% 50%);
     background-color: var(--secondaryfont1);
-    border-radius: 20px;
+    border-radius: 5px;
 
 }
 
 .w-card:hover .anim {
     clip-path: circle(70.7% at 50% 50%);
+    
 }
+
 
 .w-card:hover {
     color: #92e6fc;
@@ -881,7 +889,7 @@ align-items: center;
 
 .w-card:nth-child(1) .anim {
 
-    background: url(ppl/Jose.jpg);
+    background: url(ppl/pablo.jpg);
     background-size: cover;
     opacity: .8;
 }
@@ -895,8 +903,9 @@ align-items: center;
 
 .w-card:nth-child(3) .anim {
 
-    background: url(delicacies/moron.jpg);
-    background-size: cover;
+    background: url(delicacies/Binagol.jpg);
+    background-size:cover;
+    background-position: center;
     opacity: .8;
 }
 
@@ -960,7 +969,7 @@ align-items: center;
 
 .main-grid-title {
     text-align: center;
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     margin-top: 7rem;
     
 
@@ -970,7 +979,7 @@ align-items: center;
 
 
 .a1-description-container h1 {
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     color: var(--Carmine);
     font-size: 30px;
 }
@@ -1043,7 +1052,7 @@ align-items: center;
 }
 
 .grid-title {
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     color: var(--Carmine);
     margin-top: 7rem;
     margin-bottom: 3rem;
@@ -1135,7 +1144,7 @@ align-items: center;
 }
 
 .book-title {
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-size: 60px;
     font-weight: 300;
     width: 450px;
@@ -1186,7 +1195,7 @@ footer i {
 
 #f-company h1 {
     color: var(--Carmine);
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-weight: 500;
   
 }
@@ -1501,7 +1510,7 @@ footer a {
 }
 
 .img-box h1 {
-    font-family: var(--roboto);
+    font-family: var(--alegreya);
     font-size: 25px;
     color: var(--Carmine);
     margin-bottom: 25px;
@@ -2023,7 +2032,7 @@ position: relative;
     }
 
     .about-container {
-        padding: 25px 0;
+        padding: 6rem 1rem;
     }
 
     .about-details {
