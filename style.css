@@ -703,17 +703,22 @@ hr {
 }
 
 
+
 .b-card:hover .b-img {
     transform: scale(1.1);
     opacity: 1;
 }
 
 .b-card:nth-child(1) {
-    grid-row: span 3;
+    grid-row: span 2;
+}
+
+.b-card:nth-child(2) img{
+    object-position: top;
 }
 
 .b-card:nth-child(3) {
-    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .b-card:nth-child(2) {
@@ -731,11 +736,11 @@ hr {
 
 .service-section {
     min-height: 100vh;
-    padding: 10rem 5rem;
+   
     display: flex;
-
+    margin-top: 100px;
     flex-direction: column;
-
+align-items: center;
 }
 
 .service-title {
@@ -751,7 +756,7 @@ hr {
     font-family: var(--poppins);
     color: var(--secondaryfont);
     text-align: center;
-
+ max-width: 768px;
 }
 
 
@@ -1309,21 +1314,10 @@ footer a {
 .fs-links a {
     display: block;
     position: relative;
-
+    cursor: default;
 }
 
-.fs-links a:before {
-    content: '';
-    height: 15px;
-    width: 3px;
-    background: #b6f0ff;
-    position: absolute;
-    top: 5px;
-    left: -8px;
-    opacity: 0;
-    transition: 500ms ease;
 
-}
 
 .f-loc-flex {
     display: flex;
@@ -1332,16 +1326,8 @@ footer a {
 }
 
 
-.fs-links a:hover::before {
-    opacity: 1;
 
-}
 
-.fs-links a:hover {
-    transform: translateX(-5px);
-    filter: grayscale(100%);
-    color: red;
-}
 
 .f-contacts p,
 .f-contacts i {
@@ -1538,29 +1524,34 @@ footer a {
     }
 
     .b-section {
-        padding: 20px 12rem;
+        padding: 20px 9rem;
     }
 
     .b-container {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        height: 1100px;
+        grid-template-rows: repeat(2, 1fr);
+     
     }
 
     .b-card:nth-child(1) {
         grid-row: span 2;
     }
 
-    .b-card:nth-child(3) {
+ .b-card:nth-child(2) {
         grid-column: span 1;
-    }
-
-    .b-card:nth-child(2) {
         grid-row: span 1;
     }
 
+    .b-card:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+   
+
     .b-card:nth-child(4) {
-        grid-row: span 2;
+        grid-row: span 1;
+        grid-column: span 2;
     }
 
 }
@@ -1568,35 +1559,14 @@ footer a {
 
 
 @media (max-width:1180px) {
-    .b-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        height: 900px;
-    }
-
-    .b-section {
-        padding: 20px 16rem;
-    }
+    
+  
 
     .b-container {
         justify-items: center;
     }
 
-    .b-card:nth-child(1) {
-        grid-row: span 1;
-    }
-
-    .b-card:nth-child(3) {
-        grid-column: span 1;
-    }
-
-    .b-card:nth-child(2) {
-        grid-row: span 1;
-    }
-
-    .b-card:nth-child(4) {
-        grid-row: span 1;
-    }
+   
 
     .explore-grid2 {
         columns: 2;
@@ -1641,7 +1611,31 @@ footer a {
     }
 
 
+    
+    .b-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+     
+    }
 
+    .b-card:nth-child(1) {
+        grid-row: span 1;
+    }
+
+    .b-card:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .b-card:nth-child(2) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .b-card:nth-child(4) {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
 
 }
 
@@ -1651,7 +1645,7 @@ footer a {
 
 @media (max-width:950px) {
     .b-section {
-        padding: 20px 13.5rem;
+        padding: 20px 10rem;
     }
 }
 
@@ -1702,9 +1696,7 @@ footer a {
         flex-direction: column;
     }
 
-    .b-section {
-        padding: 20px 11rem;
-    }
+  
 
     .grid-description {
         font-size: 13px;
@@ -1759,7 +1751,7 @@ footer a {
     }
 
     .b-section {
-        padding: 20px 5rem;
+        padding: 20px 2rem;
     }
 
     .about-details {
@@ -1794,6 +1786,16 @@ footer a {
         grid-template-columns: repeat(1, 1fr);
        
     }
+
+    .b-container {
+        grid-template-columns: repeat(1, 0.6fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 1200px;
+        justify-content: center;
+    }
+
+
+
 }
 
 @media (max-width:640px) {
@@ -1822,14 +1824,35 @@ footer a {
     }
 
     .b-container {
-        height: 750px;
+        height: 900px;
+        grid-template-columns: repeat(1, 0.8fr);
     }
 
     .b-section {
         padding: 20px .5rem;
     }
+    
 }
 
-@media (max-width:475px) {}
+@media (max-width:475px) {
+
+    
+
+}
 
 @media (max-width:380px) {}
+
+
+@media (max-width:280px) {
+    .freepik {
+        width: 275px;
+    }
+
+    footer {
+        padding:2rem .2rem;
+    }
+
+    .welcome-content {
+        padding: 7rem 0px;
+    }
+}
