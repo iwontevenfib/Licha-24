@@ -1057,6 +1057,9 @@ align-items: center;
     text-align: justify;
     color: var(--salmon);
     font-size: 20px;
+   
+   
+    margin-bottom: 1.7rem;
 }
 
 .a1-description-container {
@@ -1345,8 +1348,10 @@ footer a {
 .fs-links a {
     display: block;
     position: relative;
-    cursor: default;
     color: var(--salmon);
+}
+.fs-links a:hover {
+    color: var(--Carmine);
 }
 
 
