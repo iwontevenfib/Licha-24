@@ -1837,6 +1837,12 @@ footer a {
     .dl:nth-child(11) {
         flex-direction: column-reverse;
     }
+    .dl:nth-child(12) {
+        flex-direction: column;
+    }
+    .dl:nth-child(13) {
+        flex-direction: column-reverse;
+    }
     
 
 
