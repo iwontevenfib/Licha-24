@@ -216,6 +216,7 @@ nav {
 
 .welcome-content {
     padding: 15px;
+    cursor: default;
 }
 
 .welcome-text {
@@ -296,7 +297,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7rem;
-
+    cursor: default;
     color: var(--Carmine);
 
 
@@ -359,6 +360,7 @@ nav {
 
     font-family: var(--poppins);
     width: 600px;
+    cursor: default;
 }
 
 
@@ -377,8 +379,11 @@ nav {
     margin: 0 0 30px 0;
     line-height: 2;
     text-align: justify;
-
+    position: relative;
 }
+
+
+
 .a-names-container {
 display: flex;
 flex-direction: column;
@@ -404,25 +409,32 @@ p.a-names {
     background-color:rgba(255, 90, 72, 0.63) ;
 }
 
-.a-names::before {
+
+
+.trivia {
+    color: var(--Desire);
+    font-family: var(--alegreya);
+    font-weight: 500;
+    position: relative;
+    display: flex;
+}
+
+.trivia:before {
     content: '';
     position: absolute;
-    height: 3px;
-    width: 205%;
-    top: 22px;
-   left: -25px;
-    background-color: var(--salmon);
+    height: 2px;
+    width: 100%;
+    background-color: rgb(255, 172, 172);
+    bottom: 0;
     transform: scaleX(0);
-    transition: 300ms ease-in-out;
-    transform-origin: center;
+    transform-origin: left;
+transition: 300ms ease-in-out;
 }
 
-.a-names:hover::before {
+.about-details:hover .trivia:before{
     transform: scaleX(1);
+    
 }
-
-
-
 
 
 /* DESTINATION SECTION */
@@ -611,91 +623,14 @@ p.a-names {
 
 
 
-/* TITLEEEEEEEEEEEEEEEEEEEEE */
 
-.dtxt .box-title {
-
-    position: relative;
-    margin-bottom: 50px;
-    width: max-content;
-    color: var(--secondaryfont);
-    margin: 10px 5px 1.5rem 10px;
-    font-size: 1rem;
-    font-weight: 700;
-
-
-
-
-}
-
-
-
-.dtxt .box-title a {
-
-    color: var(--secondaryfont1);
-    text-decoration: none;
-}
-
-
-
-.dtxt .box-title::after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: calc(100% + var(--padding)* 1.7);
-    background: var(--secondaryfont1);
-    bottom: 0;
-    left: calc(var(--padding)* -1.3);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 1000ms ease;
-
-}
-
-.boxd:hover .dtxt .box-title::after,
-.boxd1:hover .dtxt .box-title::after,
-.boxd2:hover .dtxt .box-title::after,
-.boxd:focus-within .dtxt .box-title::after,
-.boxd1:focus-within .dtxt .box-title::after,
-.boxd2:focus-within .dtxt .box-title::after {
-    transform: scaleX(1);
-
-
-}
 
 
 
 /* PARAGRAPHHHHHHHHHHHHHHH */
 
-.dtxt .box-text {
-    color: var(--secondaryfont);
-    margin: 10px 5px 10px 10px;
-    display: -webkit-box;
-    -webkit-line-clamp: 11;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 
-}
 
-/* BUTTONS */
-/* 
-.button {
-    margin: 0 0 0 10px;
-    color: var(--mainfont);
-    padding: .3rem 2rem;
-    border-radius: 20px;
-    background-color: var(--secondaryfont);
-    cursor: pointer;
-    text-decoration: none;
-    transition: 500ms ease;
-}
-
-.button:hover {
-
-    background-color: var(--mainfont);
-    color: var(--secondaryfont);
- 
-} */
 
 hr {
     display: block;
@@ -712,6 +647,7 @@ hr {
 .explore-titles {
     max-width: 840px;
     margin: 0 auto;
+    cursor: default;
     padding: 0 1rem;
 }
 
@@ -830,7 +766,7 @@ hr {
 
 
 
-/* SERVICES */
+/* Waray */
 
 .w-section {
 
@@ -844,6 +780,7 @@ hr {
 .w-titles {
     max-width: 840px;
     margin-left: auto;
+    cursor: default;
     margin-right: auto;
 }
 
@@ -853,7 +790,7 @@ hr {
     font-size: 40px;
     text-align: center;
     color: var(--Crimson);
-    margin-top: 11rem;
+    margin-top: 6.7rem;
     margin-bottom: .5rem;
 }
 
@@ -1169,48 +1106,6 @@ p {
 
 }
 
-.bookings {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    gap: 30px;
-
-    padding: 0 10vw;
-}
-
-.book-img {
-    position: absolute;
-    width: 55%;
-    right: 0;
-    top: 0;
-    z-index: -9;
-}
-
-.book-container {
-    font-family: var(--poppins);
-    font-size: 20px;
-    color: var(--secondaryfont);
-
-
-
-
-}
-
-.book-details {
-    padding: 15px 33vw 0 0;
-    text-align: justify;
-    line-height: 2;
-}
-
-.book-title {
-    font-family: var(--alegreya);
-    font-size: 60px;
-    font-weight: 300;
-    width: 450px;
-    color: #b6f0ff;
-}
 
 
 
@@ -1244,6 +1139,7 @@ footer i {
     max-width: 390px;
     margin: 0 auto;
     font-size: 15px;
+    cursor: default;
 }
 
 .footer-container {
@@ -1293,7 +1189,7 @@ footer i {
 .fcolumn h3 {
     color: var(--Carmine);
     position: relative;
-    cursor: pointer;
+    cursor: default;
     margin-bottom: 25px;
 
 }
@@ -1513,6 +1409,7 @@ footer a {
     color: var(--salmon);
     font-size: 15px;
     margin: 1rem 0 0 0;
+    cursor: default;
     text-align: center;
 }
 
@@ -1706,6 +1603,10 @@ footer a {
     .dl p {
         font-size: 14px;
     }
+    
+    .copyright {
+        font-size: 14px;
+    }
 
 }
 
@@ -1758,6 +1659,9 @@ footer a {
 
     .footer-msg {
         font-size: 15px;
+    }
+    .copyright {
+        font-size: 13px;
     }
 
 }
@@ -1968,6 +1872,13 @@ footer a {
         max-width: 630px;
     }
 
+    .copyright {
+        font-size: 13px;
+    }
+
+    .trivia {
+        font-size: 17px;
+    }
 
 
 }
