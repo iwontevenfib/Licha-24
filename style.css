@@ -310,12 +310,12 @@ nav {
     font-weight: 400;
 }
 
-.about-titles p {
+.about-titles .a-heads {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     color: var(--salmon);
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .aboutsec {
@@ -329,6 +329,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 6rem;
+    margin-top: 4rem;
     gap: 25px;
     /* background-color: #561C24 ; */
     background-color: #3D0C11;
@@ -378,14 +379,49 @@ nav {
     text-align: justify;
 
 }
+.a-names-container {
+display: flex;
+flex-direction: column;
+position: relative;
+align-items: center;
 
-
-.karl {
-    color: var(--Desire);
-    font-weight: 700;
-    font-family: var(--alegreya);
-    font-size: 35px;
 }
+
+p.a-names {
+    font-family: var(--alegreya);
+    font-weight: 700;
+    color: var(--Imperial-Red);
+    position: relative;
+    
+   
+}
+
+.divider-line {
+    display: block;
+    width: 120px;
+    height: 2px;
+    margin: 28px auto;
+    background-color:rgba(255, 90, 72, 0.63) ;
+}
+
+.a-names::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 205%;
+    top: 22px;
+   left: -25px;
+    background-color: var(--salmon);
+    transform: scaleX(0);
+    transition: 300ms ease-in-out;
+    transform-origin: center;
+}
+
+.a-names:hover::before {
+    transform: scaleX(1);
+}
+
+
 
 
 
@@ -1271,7 +1307,7 @@ footer i {
     bottom: 0;
     left: 0;
     transition: 500ms ease;
-    transform-origin: center;
+    
 }
 
 .fcolumn h3:hover::after {
@@ -1530,7 +1566,7 @@ footer a {
     padding: 25px 2.5rem;
 }
 
-/* Binagol */
+
 
 .link-section {
     padding: 1.5rem 5rem;
@@ -1609,7 +1645,7 @@ footer a {
     }
 
 
-    .about-titles p {
+    .about-titles .a-heads {
         font-size: 18px;
     }
 
@@ -1636,7 +1672,7 @@ footer a {
         font-size: 16px;
     }
 
-    .about-titles p {
+    .about-titles .a-heads {
         font-size: 16px;
     }
 
@@ -1689,7 +1725,7 @@ footer a {
         font-size: 13px;
     }
 
-    .about-titles p {
+    .about-titles .a-heads {
         font-size: 14px;
     }
 
@@ -1855,7 +1891,7 @@ footer a {
         display: none;
     }
 
-    .about-titles p {
+    .about-titles .a-heads {
         padding: .5rem;
     }
 
@@ -2141,7 +2177,7 @@ footer a {
         font-size: 30px;
     }
 
-    .about-titles p {
+    .about-titles .a-heads {
         margin-bottom: 2rem;
 
     }
