@@ -72,9 +72,7 @@ html {
 
 }
 
-header {
-    min-height: 100vh;
-}
+
 
 body {
     background-color: #161813;
@@ -653,6 +651,7 @@ hr {
 
     flex-direction: column;
     align-items: center;
+    margin-bottom: 7rem ;
 }
 
 .w-titles {
@@ -867,6 +866,7 @@ p {
     font-weight: 800;
     font-size: 25px;
     color: var(--salmon);
+    font-family: var(--alegreya);
 }
 
 .ebutton {
@@ -1556,7 +1556,7 @@ footer a {
 
 .dl p {
     font-family: var(--poppins);
-    font-size: 18px;
+    font-size: 25px;
     color: var(--salmon);
     width: 50vw;
     text-align: justify;
@@ -1615,6 +1615,9 @@ footer a {
     .w-details {
         font-size: 18px;
     }
+    .dl p {
+        font-size: 25px;
+    }
 }
 
 @media (max-width:1750px) {
@@ -1628,7 +1631,7 @@ footer a {
     }
 
     .dl p {
-        font-size: 16px;
+        font-size: 23px;
     }
 
     .about-titles .a-heads {
@@ -1663,7 +1666,7 @@ footer a {
     }
 
     .dl p {
-        font-size: 14px;
+        font-size: 22px;
     }
     
     .copyright {
@@ -1712,7 +1715,7 @@ footer a {
     }
 
     .dl p {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     nav {
@@ -1780,6 +1783,9 @@ footer a {
 
     .gal-section {
         padding: 3rem 1rem;
+    }
+    .dl p {
+        font-size: 18px;
     }
 
 }
