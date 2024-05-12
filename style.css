@@ -84,7 +84,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 90;
     width: 100%;
     height: 100px;
     padding: 20px 10rem 20px 5rem;
@@ -932,7 +932,7 @@ p {
     background: #10110ea4;
     height: 100%;
     width: 100%;
-    z-index: 10;
+    z-index: 95;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -943,14 +943,14 @@ p {
 
 .pop-up-img span {
     position: absolute;
-    top: 25px;
+    top: 15px;
     right: 27px;
     font-size: 30px;
     font-weight: 800;
     color: var(--Carmine);
     cursor: pointer;
     transition: 250ms ease;
-    z-index: 25;
+    z-index: 96;
 }
 
 .pop-up-img span:hover {
@@ -960,7 +960,7 @@ p {
 .pop-up-img img {
     top: 50%;
     left: 50%;
-    width: auto;
+    width: 90%;
     height: 100%;
     padding: 3rem;
     border-radius: 65px;
@@ -1130,7 +1130,7 @@ p {
       padding-left: 12px;
       padding-right: 12px;
       padding-top: 170px ;
-      z-index: 10;
+     
 }
 
 .gal-column-2 {
@@ -1141,7 +1141,7 @@ p {
       padding-left: 12px;
       padding-right: 12px;
       padding-top: 76px ;
-      z-index: 9;
+     
 }
 
 .gal-column-3 {
@@ -1152,7 +1152,7 @@ display: flex;
    padding-left: 12px;
    padding-right: 12px;
    padding-bottom: 75px ;
-   z-index: 10;
+
 }
 .gal-column-4 {
 
@@ -1161,7 +1161,7 @@ display: flex;
       padding-right: 12px;
       padding-bottom: 170px ;
       
-      z-index: 9;
+    
 }
 
 .gal-img  {
@@ -1659,7 +1659,7 @@ footer a {
     }
 
     .pop-up-img img {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 1rem;
         border-radius: 25px;
@@ -2030,7 +2030,7 @@ footer a {
         flex-direction: column;
         align-items: flex-start;
         height: 60px;
-        z-index: 999;
+     
     }
 
     .links-container {
