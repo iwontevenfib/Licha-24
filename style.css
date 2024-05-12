@@ -778,7 +778,7 @@ p {
 
 .w-card:nth-child(4) .anim {
 
-    background: url(tanay/1.jpg);
+    background: url(destinations/biri-island.webp);
     background-size: cover;
     opacity: .8;
 }
@@ -1229,16 +1229,16 @@ footer i {
 .footer-row {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
    
 
 }
 
 .fcolumn {
-    min-width: 250px;
     color: var(--secondaryfont);
     font-family: var(--poppins);
     padding: 0 .5rem;
+  
 
 
 }
@@ -1254,7 +1254,7 @@ footer i {
     position: relative;
     cursor: default;
     margin-bottom: 25px;
-
+    margin-top: 45px;
 }
 
 .fcolumn h3:after {
@@ -1287,61 +1287,7 @@ footer i {
 .f-socials {
     display: flex;
     position: relative;
-    margin-left: 15px;
-}
-
-/* Facebook */
-.fb {
-    position: absolute;
-    top: -45px;
-    left: -45px;
-    background: var(--Crimson);
-    padding: 4px 15px;
-    color: white;
-    font-weight: 800;
-    border-radius: 25px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 200ms ease-in-out;
-}
-
-.fb-box:hover .fb {
-    opacity: 1;
-    visibility: visible;
-
-}
-
-.fb-box:hover i {
-    transform: scale(1.5);
-    color: #316FF6;
-}
-
-
-/* Discord */
-
-.dc {
-    position: absolute;
-    top: -45px;
-    left: -7px;
-    background: var(--Crimson);
-    padding: 4px 15px;
-    color: white;
-    font-weight: 800;
-    border-radius: 25px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 200ms ease-in-out;
-}
-
-.dc-box:hover .dc {
-    opacity: 1;
-    visibility: visible;
-
-}
-
-.dc-box:hover i {
-    transform: scale(1.5);
-    color: #5865F2;
+   
 }
 
 
@@ -1349,8 +1295,8 @@ footer i {
 
 .git {
     position: absolute;
-    top: -45px;
-    left: -27px;
+    top: -5px;
+    left: 40px;
     background: var(--Crimson);
     padding: 4px 15px;
     color: white;
@@ -1400,7 +1346,8 @@ footer a {
 .f-loc-flex {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    
+    
     gap: .5rem;
 }
 
@@ -1418,6 +1365,10 @@ footer a {
     justify-content: start;
     align-items: center;
 
+}
+
+.f-loc p {
+    overflow-wrap: anywhere;
 }
 
 .f-loc i {
@@ -1899,9 +1850,7 @@ footer a {
         padding: .5rem;
     }
 
-    .footer-msg {
-        max-width: none;
-    }
+    
 
 }
 
@@ -1997,22 +1946,14 @@ footer a {
         justify-content: center;
 
     }
-
-    .fb {
-        left: -36px;
-        padding: 4px 15px;
-        font-size: 13px;
+    .footer-msg {
+        max-width: none;
     }
 
-
-
-    .dc {
-        left: -2px;
-        font-size: 13px;
-    }
+    
 
     .git {
-        left: -10px;
+        left: 38px;
         font-size: 13px;
     }
 
