@@ -12,11 +12,6 @@ document.querySelector('.pop-up-img span').onclick = () => {
   document.querySelector('.pop-up-img').style.display = 'none';
 };
 
-
-// alert("Maam buong Pelepens na ginawa namin, eto kasi sinend ng mga groupmates ko e, sorry po haha - Karl")
-
-
-
 // mobile menu
 
 
