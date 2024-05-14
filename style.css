@@ -383,12 +383,12 @@ nav {
 
 
 .a-names-container {
-display: flex;
-flex-direction: row;
-position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 
-justify-content: center;
-gap: 3rem;
+    justify-content: center;
+    gap: 3rem;
 
 }
 
@@ -397,8 +397,8 @@ p.a-names {
     font-weight: 700;
     color: var(--Imperial-Red);
     position: relative;
-    
-   
+
+
 }
 
 .divider-line {
@@ -406,7 +406,7 @@ p.a-names {
     width: 120px;
     height: 2px;
     margin: 35px auto;
-    background-color:rgba(255, 90, 72, 0.63) ;
+    background-color: rgba(255, 90, 72, 0.63);
 }
 
 
@@ -428,12 +428,12 @@ p.a-names {
     bottom: 0;
     transform: scaleX(0);
     transform-origin: left;
-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
-.about-details:hover .trivia:before{
+.about-details:hover .trivia:before {
     transform: scaleX(1);
-    
+
 }
 
 
@@ -651,7 +651,7 @@ hr {
 
     flex-direction: column;
     align-items: center;
-    margin-bottom: 7rem ;
+    margin-bottom: 7rem;
 }
 
 .w-titles {
@@ -1104,7 +1104,7 @@ p {
 /* Gallery */
 
 .gal-section {
-   
+
     padding: 3rem;
 }
 
@@ -1118,53 +1118,54 @@ p {
 
 .gal-container {
     display: flex;
-   
+
     align-items: center;
     gap: 12px;
-    
+
 }
 
 .gal-column-1 {
 
-    width:24%;
-      padding-left: 12px;
-      padding-right: 12px;
-      padding-top: 170px ;
-     
+    width: 24%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 170px;
+
 }
 
 .gal-column-2 {
     display: flex;
     flex-direction: column;
-    width:24%;
-    
-      padding-left: 12px;
-      padding-right: 12px;
-      padding-top: 76px ;
-     
+    width: 24%;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 76px;
+
 }
 
 .gal-column-3 {
-display: flex;
+    display: flex;
     flex-direction: column;
-    width:24%;
-   
-   padding-left: 12px;
-   padding-right: 12px;
-   padding-bottom: 75px ;
+    width: 24%;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 75px;
 
 }
+
 .gal-column-4 {
 
-    width:24%;
-      padding-left: 12px;
-      padding-right: 12px;
-      padding-bottom: 170px ;
-      
-    
+    width: 24%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 170px;
+
+
 }
 
-.gal-img  {
+.gal-img {
     width: 22vw;
     height: 310px;
     margin-bottom: 25px;
@@ -1230,7 +1231,7 @@ footer i {
     display: flex;
     justify-content: space-around;
 
-   
+
 
 }
 
@@ -1238,7 +1239,7 @@ footer i {
     color: var(--secondaryfont);
     font-family: var(--poppins);
     padding: 0 .5rem;
-  
+
 
 
 }
@@ -1266,7 +1267,7 @@ footer i {
     bottom: 0;
     left: 0;
     transition: 500ms ease;
-    
+
 }
 
 .fcolumn h3:hover::after {
@@ -1287,7 +1288,7 @@ footer i {
 .f-socials {
     display: flex;
     position: relative;
-   
+
 }
 
 
@@ -1346,8 +1347,8 @@ footer a {
 .f-loc-flex {
     display: flex;
     flex-direction: column;
-    
-    
+
+
     gap: .5rem;
 }
 
@@ -1546,7 +1547,7 @@ footer a {
 }
 
 .dl img:hover {
-    opacity:1 ;
+    opacity: 1;
 }
 
 
@@ -1575,6 +1576,7 @@ footer a {
     .w-details {
         font-size: 18px;
     }
+
     .dl p {
         font-size: 25px;
     }
@@ -1618,17 +1620,11 @@ footer a {
         font-size: 22px;
     }
 
-    .pop-up-img img {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-        border-radius: 25px;
-    }
 
     .dl p {
         font-size: 22px;
     }
-    
+
     .copyright {
         font-size: 14px;
     }
@@ -1685,6 +1681,7 @@ footer a {
     .footer-msg {
         font-size: 15px;
     }
+
     .copyright {
         font-size: 13px;
     }
@@ -1744,6 +1741,7 @@ footer a {
     .gal-section {
         padding: 3rem 1rem;
     }
+
     .dl p {
         font-size: 18px;
     }
@@ -1837,13 +1835,15 @@ footer a {
     .dl:nth-child(11) {
         flex-direction: column-reverse;
     }
+
     .dl:nth-child(12) {
         flex-direction: column;
     }
+
     .dl:nth-child(13) {
         flex-direction: column-reverse;
     }
-    
+
 
 
     .logo-name {
@@ -1854,7 +1854,7 @@ footer a {
         padding: .5rem;
     }
 
-    
+
 
 }
 
@@ -1902,13 +1902,14 @@ footer a {
     .w-title {
         font-size: 30px;
     }
-    .gal-img  {
-       
+
+    .gal-img {
+
         height: 230px;
-       
+
     }
-    
-    
+
+
 }
 
 
@@ -1950,11 +1951,12 @@ footer a {
         justify-content: center;
 
     }
+
     .footer-msg {
         max-width: none;
     }
 
-    
+
 
     .git {
         left: 38px;
@@ -2000,7 +2002,7 @@ footer a {
         flex-direction: column;
         align-items: flex-start;
         height: 60px;
-     
+
     }
 
     .links-container {
@@ -2016,6 +2018,7 @@ footer a {
     .logo {
         width: 65px;
     }
+
     .llogo a {
         left: 1.3rem;
         top: .4rem;
@@ -2092,41 +2095,45 @@ footer a {
         height: 1200px;
         justify-content: center;
     }
-    
 
-  .gal-container {
-    flex-direction: column;
-    gap: 0;
-  }
-  .gal-img {
-    width: 300px;
-    margin-bottom: 10px;
-  }
- 
 
-  .gal-column-1 {
-    padding: 0;
-    width: auto;
-  }
-  .gal-column-2 {
-    padding: 0;
-    width: auto;
-    gap: 10px;  
-    flex-direction: row;
-}
-  .gal-column-3 {
-    padding: 0;
-    width: auto;
-    gap: 10px; 
-    flex-direction: row;
-  }
-  .gal-column-4 {
-    padding: 0;
-    width: auto;
-  }
+    .gal-container {
+        flex-direction: column;
+        gap: 0;
+    }
 
-  
-   
+    .gal-img {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+
+    .gal-column-1 {
+        padding: 0;
+        width: auto;
+    }
+
+    .gal-column-2 {
+        padding: 0;
+        width: auto;
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    .gal-column-3 {
+        padding: 0;
+        width: auto;
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    .gal-column-4 {
+        padding: 0;
+        width: auto;
+    }
+
+
+
 
 
 }
@@ -2160,7 +2167,7 @@ footer a {
     .gal-img {
         width: 250px;
         margin-bottom: 10px;
-      }
+    }
 }
 
 
@@ -2216,16 +2223,17 @@ footer a {
     .gal-img {
         width: 280px;
         margin-bottom: 10px;
-      }
+    }
 
-      .gal-column-2 {
+    .gal-column-2 {
         flex-direction: column;
         gap: 4px;
-      }
-      .gal-column-3 {
+    }
+
+    .gal-column-3 {
         flex-direction: column;
         gap: 4px;
-      }
+    }
 
 }
 
@@ -2263,5 +2271,5 @@ footer a {
 
     .gal-img {
         width: 240px;
-      }
+    }
 }
