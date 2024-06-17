@@ -817,9 +817,13 @@ p {
     color: var(--Carmine);
     display: flex;
     margin-top: 100px;
-
+   position: relative;
+   margin-bottom: .5rem;
 
 }
+
+
+
 
 .b-sec-details {
     text-align: center;
@@ -937,6 +941,8 @@ p {
     justify-content: center;
     align-items: center;
     display: none;
+    
+    
 
     /* backdrop-filter: blur(3px); */
 }
@@ -967,6 +973,7 @@ p {
     object-fit: cover;
     transform: translate(-50%, -50%);
     position: absolute;
+    cursor:default;
 }
 
 
@@ -1171,8 +1178,13 @@ p {
     margin-bottom: 25px;
     object-fit: cover;
     border-radius: 10px;
+ opacity: .7;
+ transition: .5s;
 }
 
+.gal-img:hover{
+    opacity: 1;
+}
 
 
 
@@ -1256,6 +1268,7 @@ footer i {
     cursor: default;
     margin-bottom: 25px;
     margin-top: 45px;
+    display: inline-block;
 }
 
 .fcolumn h3:after {
@@ -1270,8 +1283,8 @@ footer i {
 
 }
 
-.fcolumn h3:hover::after {
-    width: 60%;
+.fcolumn:hover h3::after {
+    width: 135%;
 }
 
 /* SOCIALS */
