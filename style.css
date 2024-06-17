@@ -1563,6 +1563,34 @@ footer a {
     opacity: 1;
 }
 
+.refer-main {
+    padding: 2.5rem;
+}
+.ref-title {
+    font-family: var(--alegreya);
+    margin: 2.5rem 0 2rem  0;
+    color: var(--Carmine);
+    text-align: center;
+    font-size: 30px;
+}
+.refer-main {
+    font-family: var(--poppins);
+ 
+}
+.ref-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.ref-links a {
+    text-decoration: none;
+    color: var(--Indian-Red);
+    margin-bottom: 10px;
+}
+
+.ref-links a:hover {
+    color: var(--Burgundy);
+}
 
 
 /* MEDIA QUERIES */
@@ -1867,7 +1895,9 @@ footer a {
         padding: .5rem;
     }
 
-
+    .ref-links a {
+        font-size:15px;
+    }
 
 }
 
@@ -1954,7 +1984,9 @@ footer a {
         font-size: 17px;
     }
 
-
+    .ref-links a {
+        font-size:10px;
+    }
 }
 
 @media (max-width:835px) {
@@ -2146,7 +2178,9 @@ footer a {
     }
 
 
-
+    .ref-links a {
+        font-size:7px;
+    }
 
 
 }
