@@ -38,12 +38,16 @@
                 </a>
             </div>
 
-            <a href="#blank" class="menu-btn"> <img src="img/menu.svg" class="navmenu" alt=""></a>
+            <a href="#blank" class="menu-btn" > <img src="img/menu.svg" class="navmenu" 
+                    alt="" onclick="toggleImage(this)"></a>
+                    
+           
+                    
 
-            <ul class="links-container">
+            <ul class="links-container" >
                 <!-- 1 -->
                 <li class="link-item">
-                    <a class="rl" href="#w-sec">Waray</a>
+                    <a class="rl" href="#w-sec" >Waray</a>
                 </li>
 
                 <!-- 2 -->
@@ -54,19 +58,45 @@
 
 
                 <!-- 3 -->
-                <li class="link-item"><a href="#aboutu" class="rl">About</a>
+                <li class="link-item"><a href="#aboutu" class="rl" >About</a>
 
                 </li>
                 <!-- 4 -->
-                <li class="link-item"><a href="#footer-sec" class="rl">Contact</a>
+                <li class="link-item"><a href="#footer-sec" class="rl" >Contact</a>
                 </li>
             </ul>
+
+<!-- MOBILE NAV -->
+            <ul class="mobile-container" id="navbarLinks">
+                <!-- 1 -->
+                <li class="link-item">
+                    <a class="rl" href="#w-sec" onclick="closeNavbar()">Waray</a>
+                </li>
+
+                <!-- 2 -->
+                <li class="link-item">
+                    <a class="rl" href="#gallery" onclick="closeNavbar()">Explore</a>
+
+                </li>
+
+
+                <!-- 3 -->
+                <li class="link-item"><a href="#aboutu" class="rl" onclick="closeNavbar()">About</a>
+
+                </li>
+                <!-- 4 -->
+                <li class="link-item"><a href="#footer-sec" class="rl" onclick="closeNavbar()">Contact</a>
+                </li>
+            </ul>
+
+            
         </nav>
+        
+        <!-- SCROLL ON TOP BUTTOn -->
 
-
-
-
-
+        <a href="#" class="scroll-on-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
 
         <!-- WElCOME PAGE -->
         <main id="home" class="welcome-page">
@@ -120,7 +150,8 @@
         <div id="w-sec">&nbsp;</div>
 
         <div class="w-titles">
-            <h1 class="w-title" data-aos="fade-up"data-aos-duration="700">The Appealing and Thriving Community of Waray</h1>
+            <h1 class="w-title" data-aos="fade-up" data-aos-duration="700">The Appealing and Thriving Community of Waray
+            </h1>
             <p class="w-details" data-aos="fade-up" data-aos-duration="900">The Waray people are an ethnolinguistic
                 group from the Philippines who lives in the
                 Eastern Visayas, a region from the Philippines&#46; They are a large indigenous group, possessing a wide
@@ -244,16 +275,16 @@
             <div class="gal-container">
 
                 <div class="gal-column-1" data-aos="fade-up" data-aos-duration="900">
-                    <img class="gal-img" src="delicacies/moron.jpg" alt="" >
+                    <img class="gal-img" src="delicacies/moron.jpg" alt="">
                 </div>
 
                 <div class="gal-column-2" data-aos="fade-up" data-aos-duration="900">
-                    <img class="gal-img" src="Instruments/3.jpeg" alt="" >
-                    <img class="gal-img" src="destinations/tarangban-falls.webp" alt="" >
+                    <img class="gal-img" src="Instruments/3.jpeg" alt="">
+                    <img class="gal-img" src="destinations/tarangban-falls.webp" alt="">
                 </div>
 
                 <div class="gal-column-3" data-aos="fade-up" data-aos-duration="900">
-                    <img class="gal-img" src="destinations/biri-island.webp" alt="" >
+                    <img class="gal-img" src="destinations/biri-island.webp" alt="">
                     <img class="gal-img" src="Instruments/5.jpg" alt="">
                 </div>
 
@@ -264,11 +295,11 @@
 
 
 
-               
+
 
 
             </div>
-            
+
         </div>
         <div class="pop-up-img">
             <span><i class="fa-solid fa-eye-slash"></i></span>
