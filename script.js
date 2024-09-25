@@ -74,7 +74,25 @@ window.addEventListener("scroll", () => {
 // })
 
 
+// text description reveal button
+const revealButton = document.querySelector('.reveal-btn');
+const textReveal = document.querySelector('.w-details');
 
+let revealstatus = false
+
+revealButton.addEventListener('click', () => {
+  textReveal.classList.toggle('reveal-text');
+  
+  
+  if (revealstatus == false){
+     revealButton.textContent = "see less";
+     revealstatus = true;
+  } else {
+    revealButton.textContent = "see more";
+     revealstatus = false;
+  }
+  
+});
 
 
 

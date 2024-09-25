@@ -719,8 +719,36 @@ hr {
 .w-details {
     font-family: var(--poppins);
     color: var(--secondaryfont);
-    text-align: center;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+   
 }
+
+
+.reveal-btn { 
+   color: rgb(255, 226, 226);
+   font-family: var(--poppins);
+   cursor: pointer;
+   float: right;
+   font-size: 13px;
+   transition: 500ms ease;
+}
+
+.reveal-btn:hover {
+    color: var(--Crimson);
+    
+}
+
+
+.w-details.reveal-text{
+    -webkit-box-orient: initial;
+   
+}
+
 
 
 .w-details,
